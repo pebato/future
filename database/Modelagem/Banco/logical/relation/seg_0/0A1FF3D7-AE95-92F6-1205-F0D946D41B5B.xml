@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SER APRESENTADO" directorySegmentName="seg_0" id="0A1FF3D7-AE95-92F6-1205-F0D946D41B5B">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 14:01:01 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<sourcePk>0917748F-9E4B-D2F7-321E-17BB92ADB1A7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>022B668F-FA2D-7FF7-65D1-EA106A39771A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>675D394D-E3CA-ACAF-2943-4A4A785FC63F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E2DADB2-1205-B2E7-8D17-195B31158658" name="T_ITEM">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 18:34:45 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ITEM" id="1DF6D754-10BF-19DE-E6CF-23E8883CD6EA">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 18:44:41 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ITEM_PT" id="5FC03CC8-D02E-56C8-3963-6CB8847B8C9B">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 18:44:41 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160 CHAR</dataTypeSize>
+<ownDataTypeParameters>160 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ITEM_PT" id="57916C47-FE64-111F-5DCE-9362850252E6">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 18:44:41 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL_FOTO" id="F3024F35-2A38-9E49-482F-E1D83C51F8F4">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:52:43 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NM_ITEM_EN" id="92488B89-83DE-EB6A-FF6C-F4C4001FF34C">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 13:16:50 UTC</createdTime>
+<generatorID>16C3444D-5884-D0B1-F7F0-4348A3A5F07C</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160 CHAR</dataTypeSize>
+<ownDataTypeParameters>160 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_ITEM_EN" id="086A37A2-8911-F462-9F48-136D4584CDA4">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 13:16:50 UTC</createdTime>
+<generatorID>F9E2D320-4108-2030-1F66-8BE296227F0D</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B527DF34-1C96-0BA5-61DF-89E06058E958" name="T_ITEM_PK">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 18:44:58 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DF6D754-10BF-19DE-E6CF-23E8883CD6EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

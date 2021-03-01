@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C1201E3-A0DA-2FF7-64E0-6266F74D3699" name="T_PERSONAGEM">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:53:36 UTC</createdTime>
+<generatorID>71C1E4FB-324C-191D-C8F3-AA2916A4CC93</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PERSONAGEM" id="6E94215D-3A17-7EE3-D12B-5026B2AACB32">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:53:36 UTC</createdTime>
+<generatorID>BDABBE55-9AB8-EB1A-1687-375742A65DE7</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_PERSONAGEM" id="B511A1AC-9098-4C74-EB26-53717D40F610">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:53:36 UTC</createdTime>
+<generatorID>7CD27795-8A2A-16CC-8206-E726A377F593</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160 CHAR</dataTypeSize>
+<ownDataTypeParameters>160 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PERSONAGEM_PT" id="625CB587-E1ED-040C-5A83-593B41174EE5">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:53:36 UTC</createdTime>
+<generatorID>A3B086FD-066A-104D-C5FC-37D44F433AB9</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PERSONAGEM_EN" id="418043F3-EEAA-ACAE-5335-3048F4A50339">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:53:36 UTC</createdTime>
+<generatorID>D63CEB35-1332-F1F9-DD49-C11170DAB398</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASCIMENTO_PT" id="7AAF059C-2D09-818B-5FAC-6859F3B330C5">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 23:49:14 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASCIMENTO_EN" id="03CFBBFF-5A6E-B5CF-5898-D9363D25BE68">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:53:36 UTC</createdTime>
+<generatorID>F9131FDB-5725-3377-BCE9-A9393574092F</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="URL_FOTO" id="F09B9D58-BF52-AD3A-161A-359DDD141F14">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:53:36 UTC</createdTime>
+<generatorID>2017D9C2-665C-206E-ADCA-A1662D9A1299</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_APARICAO" id="E1F4780C-BDA5-F4EF-460D-6DE6E019FB1F">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 00:09:34 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5B029378-3753-0DC2-EFED-A78CDDA10205" name="PK PERSONAGEM">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:53:36 UTC</createdTime>
+<generatorID>B4F932A6-7EF3-EC5C-4F35-F771C3FB122D</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6E94215D-3A17-7EE3-D12B-5026B2AACB32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

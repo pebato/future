@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="022B668F-FA2D-7FF7-65D1-EA106A39771A" name="T_ITEM" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B7DC7779-F441-CA12-4713-E78C51BBB9B8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="3C1201E3-A0DA-2FF7-64E0-6266F74D3699" name="T_PERSONAGEM" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B7DC7779-F441-CA12-4713-E78C51BBB9B8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="5576BB60-1A82-7F52-963E-E42B3A9C1DBE" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="675D394D-E3CA-ACAF-2943-4A4A785FC63F" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A36CF5F3-B9A4-5E56-4FD6-429E8862F28A" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="E98BBFAD-66FF-1CA6-DA18-2912041DF122" name="T_ANO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B7DC7779-F441-CA12-4713-E78C51BBB9B8" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="0A1FF3D7-AE95-92F6-1205-F0D946D41B5B" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="94CE42EF-0DF1-176B-8384-8C63E653C34B" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="94F1F12D-422E-4197-4C9A-EDD0D1B4EB36" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="C44B641E-6E5F-F4B6-554B-3BFE8A7563EB" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="DC35DBBF-7D31-414C-4E2D-98410FBEBAEA" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="DFFDDE54-204A-5BF0-4A60-5376B19DF56D" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TER POSSE" directorySegmentName="seg_0" id="DFFDDE54-204A-5BF0-4A60-5376B19DF56D">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 13:02:55 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<sourcePk>5B029378-3753-0DC2-EFED-A78CDDA10205</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3C1201E3-A0DA-2FF7-64E0-6266F74D3699</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A36CF5F3-B9A4-5E56-4FD6-429E8862F28A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

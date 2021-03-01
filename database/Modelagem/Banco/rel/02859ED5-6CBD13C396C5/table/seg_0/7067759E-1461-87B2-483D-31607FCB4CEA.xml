@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7067759E-1461-87B2-483D-31607FCB4CEA" name="T_POSSE">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 13:16:50 UTC</createdTime>
+<generatorID>A36CF5F3-B9A4-5E56-4FD6-429E8862F28A</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_PERSONAGEM_ID_PERSONAGEM" id="E092F1E3-CF09-CB4C-CB95-40DDF85EDBD9">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 13:16:50 UTC</createdTime>
+<generatorID>29F36A8A-67CA-BBF7-EB9E-BD91FDFFBC1C</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0517B9E6-E692-AB3D-E841-4C0E564C2A3D" referredColumn="BDABBE55-9AB8-EB1A-1687-375742A65DE7"/>
+</associations>
+</Column>
+<Column name="T_ITEM_ID_ITEM" id="596A6DBC-E519-02C3-2B0E-7A0A6470B6C0">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 13:16:50 UTC</createdTime>
+<generatorID>2B3D19F9-B023-1F2D-1275-688D65D8BAA3</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74E004B4-A865-23C7-CEFA-6127DA927831" referredColumn="1DF6D754-10BF-19DE-E6CF-23E8883CD6EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73BCC4EC-504B-0C9A-CE76-C7011B4F3571" name="PK_POSSE">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 13:16:50 UTC</createdTime>
+<generatorID>4F50EED4-2F67-98E9-ACEA-A674BC599F1E</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E092F1E3-CF09-CB4C-CB95-40DDF85EDBD9"/>
+<colUsage columnID="596A6DBC-E519-02C3-2B0E-7A0A6470B6C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D361760-CCFB-EF0D-7607-7113A89CAF9C" name="FK_POSSE_ITEM">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 13:16:50 UTC</createdTime>
+<generatorID>94CE42EF-0DF1-176B-8384-8C63E653C34B</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="596A6DBC-E519-02C3-2B0E-7A0A6470B6C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9541B50-1983-9BE5-91B5-49021A7D35A9" name="FK_POSSE_PERSONAGEM">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 13:16:50 UTC</createdTime>
+<generatorID>DFFDDE54-204A-5BF0-4A60-5376B19DF56D</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E092F1E3-CF09-CB4C-CB95-40DDF85EDBD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

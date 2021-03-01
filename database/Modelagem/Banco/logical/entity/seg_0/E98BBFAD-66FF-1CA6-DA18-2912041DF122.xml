@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E98BBFAD-66FF-1CA6-DA18-2912041DF122" name="T_ANO">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:53:36 UTC</createdTime>
+<generatorID>8E6585AC-6BFF-0F9F-66A2-0E6896417CBE</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="NR_ANO" id="43933C01-EFEE-0C12-5368-3814D7AA6805">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:53:36 UTC</createdTime>
+<generatorID>D56934D5-3FCE-6FF4-EADD-2531893D16AA</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ANO_PT" id="A4489957-D9AB-49A4-F007-B19AF04DF1AF">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:53:36 UTC</createdTime>
+<generatorID>82BEC623-5539-12D1-4809-FF7EE321824B</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ANO_EN" id="D800911F-360D-125B-A149-951A232A0685">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 23:47:33 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="URL_FOTO" id="84866136-8BE3-41C4-DEF0-E96ED4386368">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 23:37:51 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C1DC05CF-B45C-9A43-0165-E058F6F0A5BD" name="PK ANO">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-09 21:53:36 UTC</createdTime>
+<generatorID>A0187CD2-6501-2519-F3A2-F6A618C44E01</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43933C01-EFEE-0C12-5368-3814D7AA6805</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

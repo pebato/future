@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INTRODUZIR" directorySegmentName="seg_0" id="C44B641E-6E5F-F4B6-554B-3BFE8A7563EB">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 14:01:53 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<sourcePk>C1DC05CF-B45C-9A43-0165-E058F6F0A5BD</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E98BBFAD-66FF-1CA6-DA18-2912041DF122</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5576BB60-1A82-7F52-963E-E42B3A9C1DBE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

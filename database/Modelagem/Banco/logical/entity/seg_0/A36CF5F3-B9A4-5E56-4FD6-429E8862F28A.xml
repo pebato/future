@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A36CF5F3-B9A4-5E56-4FD6-429E8862F28A" name="T_POSSE">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 12:59:10 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PERSONAGEM" id="29F36A8A-67CA-BBF7-EB9E-BD91FDFFBC1C">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 13:02:55 UTC</createdTime>
+<generatorID>DFFDDE54-204A-5BF0-4A60-5376B19DF56D</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<referedAttribute>6E94215D-3A17-7EE3-D12B-5026B2AACB32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ITEM" id="2B3D19F9-B023-1F2D-1275-688D65D8BAA3">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 13:04:14 UTC</createdTime>
+<generatorID>94CE42EF-0DF1-176B-8384-8C63E653C34B</generatorID>
+<ownerDesignName>Banco</ownerDesignName>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="true"/>
+</engineerTo>
+<referedAttribute>01A38508-70FA-5C31-D792-79A2F7F33801</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4F50EED4-2F67-98E9-ACEA-A674BC599F1E" name="PK_POSSE">
+<createdBy>pedro</createdBy>
+<createdTime>2020-11-10 12:59:55 UTC</createdTime>
+<ownerDesignName>Banco</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="02859ED5-6D74-1E7D-03A9-6CBD13C396C5" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>DFFDDE54-204A-5BF0-4A60-5376B19DF56D,94CE42EF-0DF1-176B-8384-8C63E653C34B</newElementsIDs>
+<usedAttributes>
+<attributeRef>29F36A8A-67CA-BBF7-EB9E-BD91FDFFBC1C</attributeRef>
+<attributeRef>2B3D19F9-B023-1F2D-1275-688D65D8BAA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
